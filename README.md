@@ -33,7 +33,13 @@ A utility script that automatically checks and updates all custom apps in your F
 1. Download the script to your bench directory:
    ```bash
    cd /path/to/your/bench
-   curl -o auto_migrate.sh https://github.com/mustafa-ebrahem/Frappe-Bench-Auto-Migrate-Script/master/README.md
+   curl -o auto_migrate.sh https://raw.githubusercontent.com/mustafa-ebrahem/Frappe-Bench-Auto-Migrate-Script/master/auto_pull_migrate_apps.sh
+   ```
+
+   Or you can download it directly from the GitHub repository:
+   ```bash
+   cd /path/to/your/bench
+   wget -O auto_migrate.sh https://raw.githubusercontent.com/mustafa-ebrahem/Frappe-Bench-Auto-Migrate-Script/master/auto_pull_migrate_apps.sh
    ```
 
 2. Make the script executable:
