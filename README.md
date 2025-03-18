@@ -1,0 +1,1 @@
+# Frappe-Bench-Auto-Migrate-Script
